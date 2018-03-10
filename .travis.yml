@@ -1,2 +1,7 @@
 language: csharp
 solutions: coverall-demo-dotnet.sln
+mono: none
+dotnet: 2.0
+script:
+ - dotnet restore
+ - dotnet test
